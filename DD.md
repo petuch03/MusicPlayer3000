@@ -48,9 +48,9 @@
    |    list   | Лист со всеми треками   |  ObservableList<Song>  |
    | nowPlaying | Трек, проигрываемый сейчас | Song |
    | flag | Вспомогательный флаг | boolean |
-   
+
    | Название метода                  |        Смысл         | Возвращаемое значение  |
-         | :------:          | :------------------: | :---: |
+            | :------:          | :------------------: | :---: |
    |    initialize()   | Инициализирует сцену FXML с проигрывателем   |  void  |
    | setDirWithMusic(File dirWithMusic) | Отображение директории и треков | void |
    |    pause()   | Выставление паузы |  void  |
@@ -61,7 +61,7 @@
    | playPreviousSong() | Переключение на предыдущий трек  |  void  |
    |    chooseAnotherFolder()   | Выбора альтернативной директории  |  void  |
    | getStringProperty(String string) | Вспомогательная функция для отображения названий | StringProperty| ||
-   
+
 4. Song class:
    
    | Переменная        |        Смысл         | Тип      |
